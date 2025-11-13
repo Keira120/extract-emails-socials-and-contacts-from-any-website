@@ -1,0 +1,20 @@
+{
+  "crawl": {
+    "max_pages_per_site": 30,
+    "max_depth": 3,
+    "concurrency": 5,
+    "request_timeout": 20,
+    "user_agent": "BitbashContactScraper/1.0"
+  },
+  "email_filters": {
+    "blocked_patterns": [
+      "noreply@",
+      "no-reply@",
+      "do-not-reply@",
+      "donotreply@"
+    ],
+    "blocked_domains": [],
+    "allowed_domains": []
+  },
+  "output_format": "json"
+}
