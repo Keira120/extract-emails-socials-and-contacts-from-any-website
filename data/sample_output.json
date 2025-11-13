@@ -1,0 +1,48 @@
+[
+  {
+    "url": "https://example.com",
+    "emails": [
+      "info@example.com",
+      "support@example.com"
+    ],
+    "social_links": {
+      "facebook": [
+        "https://facebook.com/example"
+      ],
+      "twitter": [
+        "https://twitter.com/example"
+      ],
+      "linkedin": [
+        "https://linkedin.com/company/example"
+      ],
+      "instagram": [
+        "https://instagram.com/example"
+      ],
+      "youtube": [
+        "https://youtube.com/@example"
+      ]
+    },
+    "phone_numbers": [
+      "+1 (555) 123-4567",
+      "555-987-6543"
+    ],
+    "scanned_pages": [
+      "https://example.com",
+      "https://example.com/contact",
+      "https://example.com/about"
+    ],
+    "status": "success",
+    "error": null
+  },
+  {
+    "url": "https://another-example.com",
+    "emails": [],
+    "social_links": {},
+    "phone_numbers": [],
+    "scanned_pages": [
+      "https://another-example.com"
+    ],
+    "status": "error",
+    "error": "Timeout while fetching the URL"
+  }
+]
